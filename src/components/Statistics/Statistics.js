@@ -1,9 +1,10 @@
 
-import { ListStats, LiItemStats, LabelStats, PercentageStats } from "./Statistics.styled";
+import { ListStats, LiItemStats, LabelStats, PercentageStats , TitleStats, ContainerStates} from "./Statistics.styled";
 
-export  const Statistics = ({stats}) => {
+export  const Statistics = ({title, stats}) => {
     return(
-         
+      <ContainerStates>
+{title && <TitleStats>{title}</TitleStats>}
       <ListStats>
       {stats.map(item => {
         return (
@@ -14,9 +15,8 @@ export  const Statistics = ({stats}) => {
         );
       })}
     </ListStats>
+    </ContainerStates>
     )
     
   };
 
-
-  

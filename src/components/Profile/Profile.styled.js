@@ -14,6 +14,7 @@ export  const Container = styled.div`
 
 export const DivDescription = styled.div`
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  
  `;
  
 export const Foto = styled.img`

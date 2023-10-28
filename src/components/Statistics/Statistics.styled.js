@@ -65,8 +65,9 @@ text-align: center;
 
 `;
 export const TitleStats = styled.h2`
+font-family: 'roboto';
 margin-bottom: 10px;
-font-size: 20px;
+font-size: 22px;
 line-height: 1.5;
 letter-spacing: 0.06em;
 `;
